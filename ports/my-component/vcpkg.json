@@ -1,0 +1,13 @@
+{
+  "name": "my-component",
+  "version": "1.0.0",
+  "description": "sample library",
+  "homepage": "https://github.com/s-h-r-e-y/my-component",
+  "supports": "windows & x64",
+  "dependencies": [
+    {
+      "name": "vcpkg-msbuild",
+      "host": true
+    }
+  ]
+}
