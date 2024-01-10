@@ -6,7 +6,7 @@ vcpkg_from_git(
 
 vcpkg_msbuild_install(
     SOURCE_PATH ${SOURCE_PATH}
-    PROJECT_SUBPATH CodeProject/CppProject/CppProject.vcxproj
+    PROJECT_SUBPATH CppProject/CppProject.vcxproj
 )
 
 file(COPY "${SOURCE_PATH}/include/" DESTINATION "${CURRENT_PACKAGES_DIR}/include" PATTERN Makefile.* EXCLUDE)
