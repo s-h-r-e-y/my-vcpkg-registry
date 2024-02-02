@@ -9,6 +9,7 @@ vcpkg_add_to_path(PREPEND "C:/Program Files/dotnet")
 vcpkg_msbuild_install(
     SOURCE_PATH ${SOURCE_PATH}
     PROJECT_SUBPATH CppProject/CppProject.vcxproj
+    NO_INSTALL
 )
 
 vcpkg_install_copyright(FILE_LIST "${SOURCE_PATH}/LICENSE")
