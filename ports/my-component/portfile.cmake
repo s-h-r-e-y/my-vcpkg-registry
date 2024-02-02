@@ -11,6 +11,4 @@ vcpkg_msbuild_install(
     PROJECT_SUBPATH CppProject/CppProject.vcxproj
 )
 
-file(COPY "${SOURCE_PATH}/include/" DESTINATION "${CURRENT_PACKAGES_DIR}/include" PATTERN Makefile.* EXCLUDE)
-
 vcpkg_install_copyright(FILE_LIST "${SOURCE_PATH}/LICENSE")
