@@ -12,4 +12,6 @@ vcpkg_msbuild_install(
     NO_INSTALL
 )
 
+set(VCPKG_POLICY_EMPTY_INCLUDE_FOLDER enabled)
+
 vcpkg_install_copyright(FILE_LIST "${SOURCE_PATH}/LICENSE")
